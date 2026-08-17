@@ -6,7 +6,7 @@ A multi-page Streamlit engineering application combining pipe-flow
 hydraulics, heat-transfer calculations, and a rock/fluid data dashboard
 into one deployed, professional-quality tool.
 
-🔗 **Live app:** _add your Streamlit Community Cloud URL here after deploying_
+🔗 **Live app:** https://thermalflow-studio-vblioixp9unsptc6bxnf2r.streamlit.app/
 
 ---
 
@@ -105,49 +105,3 @@ by the assignment.
      `"Porosity_frac"` wasn't found. Made the matching case-insensitive
      and substring-based, with a manual dropdown fallback if nothing
      matches.
-
-## Deployment (manual steps required)
-
-These steps must be done by you outside of this repository — they
-can't be completed for you:
-
-1. **Create a GitHub repository** and push this code to it (see Git
-   commands below). Make at least 5 meaningful commits (e.g. one per
-   module, plus one for docs/cleanup) rather than one large commit.
-2. **Deploy on Streamlit Community Cloud:**
-   - Go to [share.streamlit.io](https://share.streamlit.io) and sign in
-     with your GitHub account.
-   - Click "New app", select this repository, branch `main`, and set
-     the main file path to `app.py`.
-   - Click "Deploy". Wait for the build to finish, then copy the live
-     URL into this README and into your developer report.
-3. **Test the live URL** in an incognito/private window to make sure
-   it's genuinely public before submitting.
-
-### Git commands to publish this repo
-
-```bash
-cd capstone
-git init
-git add .
-git commit -m "Add engineering.py with Fluid, Pipe, HeatExchanger classes"
-git commit -m "Add Module A: Pipe Flow Analyser"
-git commit -m "Add Module B: Heat Transfer Calculator"
-git commit -m "Add Module C: Rock & Fluid Data Dashboard"
-git commit -m "Add README, sample data, and requirements.txt"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git push -u origin main
-```
-
-(If you already ran `git init`/an initial commit while building, just
-split your remaining changes into a few more logical commits so you
-end up with 5+ total — don't squash everything into one.)
-
-## Submission checklist
-
-- [ ] GitHub repository URL (public)
-- [ ] Live Streamlit Community Cloud app URL
-- [ ] 1-page developer report (Word/PDF)
-- [ ] README filled in with the live URL
-- [ ] At least 5 meaningful Git commits
